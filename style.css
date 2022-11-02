@@ -1,0 +1,135 @@
+* ::after,
+::before {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 1120px;
+   padding: 20px;
+}
+
+.div__grid {
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+select {
+   width: 170px;
+   height: 30px;
+}
+
+.hr {
+   width: 2px;
+   height: 500px;
+   margin-right: 20px;
+   background-color: black;
+}
+
+.weight {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 1px solid #000;
+}
+
+.weight__second {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 1px solid #000;
+}
+
+.weight__third {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 1px solid #000;
+}
+
+input {
+   width: 25px;
+   height: 25px;
+}
+
+.ms {
+   margin-left: 59px;
+}
+
+.nt {
+   display: inline-block;
+   margin: 100px;
+}
+
+.button {
+   width: 150px;
+   height: 40px;
+   color: #fff;
+   border: none;
+   background-color: tomato;
+}
+
+
+.modal {
+   background-color: rgba(0, 0, 0, 0.7);
+   min-height: 100vh;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: none;
+ }
+ .modal__container {
+   background-color: white;
+   height: 300px;
+   width: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+ }
+ .modal.active {
+   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .fa-check {
+   background-color: green;
+   color: white;
+   font-size: 100px;
+   padding: 30px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+ }
+ 
+ .fa-x {
+   background-color: tomato;
+   color: white;
+   font-size: 100px;
+   padding: 30px 40px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+ }
+ 
+ .modal__container_x {
+   color: black;
+   font-size: 70px;
+   position: absolute;
+   right: 30px;
+   top: 10px;
+   cursor: pointer;
+ }
